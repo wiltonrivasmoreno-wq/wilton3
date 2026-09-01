@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Portfolio - English Conditionals</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #101827, #172554, #312e81);
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1e3a8a, #7c3aed);
+        }
+
+        header h1 {
+            font-size: clamp(2.4rem, 7vw, 5rem);
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #e0e7ff;
+        }
+
+        .container {
+            width: min(1100px, 92%);
+            margin: 40px auto;
+        }
+
+        .card {
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+        }
+
+        h2 {
+            color: #93c5fd;
+            margin-bottom: 15px;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: #c4b5fd;
+            margin: 22px 0 10px;
+        }
+
+        .formula {
+            background: #020617;
+            border-left: 5px solid #8b5cf6;
+            padding: 18px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            margin: 15px 0;
+        }
+
+        .examples {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .example {
+            background: #1e293b;
+            border-radius: 14px;
+            padding: 18px;
+            border: 1px solid #334155;
+        }
+
+        .example strong {
+            color: #a5b4fc;
+        }
+
+        .translation {
+            display: block;
+            color: #cbd5e1;
+            margin-top: 7px;
+            font-size: 0.95rem;
+        }
+
+        .video-box {
+            text-align: center;
+            background: #111827;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .video-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 13px 25px;
+            border-radius: 10px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .video-button:hover {
+            transform: translateY(-3px);
+            background: #6d28d9;
+        }
+
+        .note {
+            color: #fbbf24;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #cbd5e1;
+            background: #020617;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>🎮 GAME PORTFOLIO</h1>
+        <p>Proyecto de Inglés: Condicional Cero y Primer Condicional</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- INTRODUCTION -->
+    <section class="card">
+        <h2>📚 Introduction</h2>
+        <p>
+            Las oraciones condicionales se utilizan para hablar de una condición y su resultado.
+            In this project, we will learn about the <strong>Zero Conditional</strong>
+            and the <strong>First Conditional</strong>.
+        </p>
+    </section>
+
+    <!-- ZERO CONDITIONAL -->
+    <section class="card">
+        <h2>🟢 Zero Conditional</h2>
+
+        <p>
+            El Condicional Cero se utiliza para hechos, verdades generales, hábitos,
+            reglas y situaciones que siempre son o normalmente son verdaderas.
+        </p>
+
+        <div class="formula">
+            <strong>Forma:</strong> If + presente simple, presente simple.
+        </div>
+
+        <h3>✅ Oraciones afirmativas</h3>
+        <div class="examples">
+            <div class="example">
+                <strong>1.</strong> If I drink water, I feel better.
+                <span class="translation">Si tomo agua, me siento mejor.</span>
+            </div>
+
+            <div class="example">
+                <strong>2.</strong> If I exercise, I feel healthy.
+                <span class="translation">Si hago ejercicio, me siento saludable.</span>
+            </div>
+
+            <div class="example">
+                <strong>3.</strong> If I play football, I get tired.
+                <span class="translation">Si juego fútbol, me canso.</span>
+            </div>
+        </div>
+
+        <h3>❌ Oraciones negativas</h3>
+        <div class="examples">
+            <div class="example">
+                <strong>1.</strong> If I don't sleep well, I don't feel good.
+                <span class="translation">Si no duermo bien, no me siento bien.</span>
+            </div>
+
+            <div class="example">
+                <strong>2.</strong> If I don't study, I don't learn.
+                <span class="translation">Si no estudio, no aprendo.</span>
+            </div>
+
+            <div class="example">
+                <strong>3.</strong> If I don't practice, I don't improve.
+                <span class="translation">Si no practico, no mejoro.</span>
+            </div>
+        </div>
+
+        <h3>❓ Preguntas</h3>
+        <div class="examples">
+            <div class="example">
+                <strong>1.</strong> What happens if you don't drink water?
+                <span class="translation">¿Qué pasa si no tomas agua?</span>
+            </div>
+
+            <div class="example">
+                <strong>2.</strong> What happens if you exercise every day?
+                <span class="translation">¿Qué pasa si haces ejercicio todos los días?</span>
+            </div>
+
+            <div class="example">
+                <strong>3.</strong> What happens if you don't study?
+                <span class="translation">¿Qué pasa si no estudias?</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIRST CONDITIONAL -->
+    <section class="card">
+        <h2>🔵 First Conditional</h2>
+
+        <p>
+            El Primer Condicional se utiliza para hablar de situaciones posibles o probables
+            en el futuro y sus posibles resultados.
+        </p>
+
+        <div class="formula">
+            <strong>Forma:</strong> If + presente simple, will + verbo en forma base.
+        </div>
+
+        <h3>✅ Oraciones afirmativas</h3>
+        <div class="examples">
+            <div class="example">
+                <strong>1.</strong> If I study tonight, I will finish my homework.
+                <span class="translation">Si estudio esta noche, terminaré mi tarea.</span>
+            </div>
+
+            <div class="example">
+                <strong>2.</strong> If I practice football, I will improve my skills.
+                <span class="translation">Si practico fútbol, mejoraré mis habilidades.</span>
+            </div>
+
+            <div class="example">
+                <strong>3.</strong> If I save money, I will buy a new computer.
+                <span class="translation">Si ahorro dinero, compraré un computador nuevo.</span>
+            </div>
+        </div>
+
+        <h3>❌ Oraciones negativas</h3>
+        <div class="examples">
+            <div class="example">
+                <strong>1.</strong> If I don't study, I won't pass the exam.
+                <span class="translation">Si no estudio, no aprobaré el examen.</span>
+            </div>
+
+            <div class="example">
+                <strong>2.</strong> If it doesn't rain, I won't stay at home.
+                <span class="translation">Si no llueve, no me quedaré en casa.</span>
+            </div>
+
+            <div class="example">
+                <strong>3.</strong> If I don't practice, I won't improve.
+                <span class="translation">Si no practico, no mejoraré.</span>
+            </div>
+        </div>
+
+        <h3>❓ Preguntas</h3>
+        <div class="examples">
+            <div class="example">
+                <strong>1.</strong> What will you do if you finish your homework?
+                <span class="translation">¿Qué harás si terminas tu tarea?</span>
+            </div>
+
+            <div class="example">
+                <strong>2.</strong> Will you play football if it doesn't rain?
+                <span class="translation">¿Jugarás fútbol si no llueve?</span>
+            </div>
+
+            <div class="example">
+                <strong>3.</strong> Will you buy a computer if you save enough money?
+                <span class="translation">¿Comprarás un computador si ahorras suficiente dinero?</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON -->
+    <section class="card">
+        <h2>⚖️ Diferencia entre ellos</h2>
+
+        <p>
+            El <strong>Condicional Cero</strong> describe cosas que generalmente
+            son verdaderas o suceden regularmente.
+        </p>
+
+        <p style="margin-top: 12px;">
+            El <strong>Primer Condicional</strong> describe una posible situación futura
+            y su posible resultado.
+        </p>
+
+        <div class="formula">
+            🟢 Zero Conditional → Verdad general / rutina<br><br>
+            🔵 First Conditional → Posible situación futura
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="card">
+        <h2>🎥 Mi video de explicación</h2>
+
+        <div class="video-box">
+            <p>
+                En este video explico cómo se forman el Condicional Cero y el Primer
+                Condicional y doy ejemplos de la vida cotidiana.
+            </p>
+
+            <p class="note">
+                ⚠️ Reemplaza el enlace de abajo por el enlace de tu video de YouTube.
+            </p>
+
+            <!-- CAMBIA ESTE ENLACE POR EL DE TU VIDEO -->
+            <a class="video-button"
+               href="https://www.youtube.com/"
+               target="_blank">
+                ▶ Ver mi video de YouTube
+            </a>
+        </div>
+    </section>
+
+    <!-- CONCLUSION -->
+    <section class="card">
+        <h2>🏆 Conclusión</h2>
+        <p>
+            Aprender los condicionales nos ayuda a comunicar situaciones, resultados y
+            posibilidades en inglés. El Condicional Cero es útil para verdades generales
+            y rutinas, mientras que el Primer Condicional es útil para
+            situaciones posibles en el futuro.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>🎮 GAME PORTFOLIO | English Conditional Project</p>
+    <p>Creado por: ____________________</p>
+</footer>
+
+</body>
+</html>
